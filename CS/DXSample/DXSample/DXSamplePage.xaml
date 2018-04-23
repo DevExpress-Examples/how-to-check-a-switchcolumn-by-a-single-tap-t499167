@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		xmlns:local="clr-namespace:DXSample"
+		x:Class="DXSample.DXSamplePage"
+		xmlns:dxg="clr-namespace:DevExpress.Mobile.DataGrid;assembly=DevExpress.Mobile.Grid.v16.2">
+
+	<dxg:GridControl AllowEditRows="false" x:Name="grid">
+		<dxg:GridControl.Columns>
+			<dxg:SwitchColumn FieldName="IsSelected" />
+			<dxg:TextColumn FieldName="Text"/>
+		</dxg:GridControl.Columns>
+	</dxg:GridControl>
+</ContentPage>
